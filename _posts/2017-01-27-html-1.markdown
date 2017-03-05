@@ -1,0 +1,66 @@
+---
+layout: post
+title:  "Html-1:Starting Html5"
+date:   2017-01-27 09:23:17 +0530
+categories: html
+permalink: /posts/html-1
+---
+If you have ever used HTML in your life, HTML5 is easy and even if you have not, HTML5 is nothing but HTML with more keywords. So you can learn HTML5 at once. HTML or Hyper Text Markup Language is a Markup Language as seen in its name.It is like a skeleton of a body.
+{%highlight ruby %}
+<!DOCTYPE html>
+{% endhighlight %}
+The above tag is 1st tag of HTML5, the tag tells browser that the file reading should be in HTML5.
+{%highlight ruby %}
+<head>
+<title> Your site title here</title>
+<meta charset="UTF-8">
+</head>
+{% endhighlight %}
+Head contains links, scripts, meta-tags, title, favicons. Then comes the body tag
+{% highlight ruby %}
+<body>
+</body>
+{% endhighlight %}
+Body is the place where all your file is made, like divisions, headers, text,navs,all.<br>
+<h2>Divisions of body</h2>
+<h3>1. Header </h3>
+{% highlight ruby %}
+<body>
+<header>
+<nav></nav>
+</header>
+</body>
+{% endhighlight %}
+<h3>2. Section </h3>
+{% highlight ruby %}
+<body>
+<section>
+<article></article>
+</section>
+</body>
+{% endhighlight %}
+<h3>3. Footer</h3>
+{% highlight ruby %}
+<body>
+<footer>
+</footer>
+</body>
+{% endhighlight %}
+Do you remember using of `<div>` tags in website while making it in html, bootstrap. The change in HTML5 is change of `<div class='header'>` to `<header class='header'>`, some people ask why there is need of HTML5 when we have been using div already. The need is during editing. HTML5 is easier to edit comparing with other versions of HTML.<br>
+=>Using older versions of HTML
+{% highlight ruby %}
+<body>
+</div>
+  </div>
+    </div>
+</body>
+{% endhighlight %}
+=>Using HTML5
+{% highlight ruby %}
+<body>
+</div>
+  </nav>
+      </header>
+</body>
+{% endhighlight %}
+You can see the simple part of body looks much easier in HTML5 than HTML itself, the HTML gets much messy conpared to HTML5 when a complete webpage is build.

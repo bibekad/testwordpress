@@ -1,0 +1,28 @@
+---
+layout: post
+title:  "HTML-2:Making body"
+date:   2017-01-28 09:23:17 +0530
+categories: html
+permalink: /posts/html-2
+---
+To start with, maaking a `HTML-5` webpage we have to strat from the first tag. Then the links, meta tags, the head, then the body.<br>
+<h3>HTML</h3>
+{% highlight ruby %}
+<!DOCTYPE html>
+<head>
+<title> Web Page </title>
+<link rel="stylesheet" href="main.css">
+<link rel="short icon" type="xicon" href="favicon.ico">
+<!--We will make main.css later-->
+<meta charset="UTF-8">
+</head>
+<body>
+<header>
+</header>
+<section>
+</section>
+<footer>
+</footer>
+</body>
+</html>
+{% endhighlight %}

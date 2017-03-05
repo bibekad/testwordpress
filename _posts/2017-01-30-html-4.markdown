@@ -1,0 +1,93 @@
+---
+layout: post
+title:  "HTML-4:Making Header"
+date:   2017-01-30 09:23:17 +0530
+categories: html
+permalink: /posts/html-4
+---
+In the `header` we have made contains two `nav`s `navleft` and `navright`. `navleft` will contain the heading of blog, while `navright` will contain the menu of the blog.
+Now let's continue editing the previous blog
+<h3> HTML </h3>
+{% highlight ruby %}
+<header class="header">
+<nav class="navleft">
+My Blog
+</nav>
+<nav class="navright">
+<li>Home</li>
+<li>About</li>
+<li>Contact</li>
+<li>Write for us</li>
+</nav>
+</header>
+{% endhighlight %}
+Output:
+<blockquote>
+<br>
+<header class="header1">
+<nav class="navleft1">
+My Blog
+</nav>
+<nav class="navright1">
+<li>Home</li>
+<li>About</li>
+<li>Contact</li>
+<li>Write for us</li>
+</nav>
+</header>
+</blockquote>
+<br>
+Now let's style our `navbar`<br>
+Make `main.css`
+{% highlight ruby %}
+.header nav{
+  float:left;
+}
+.navleft{
+  width:30%;
+}
+.navright{
+width: 60%;
+}
+.navright li{
+  display:inline-block;
+}
+{% endhighlight %}
+Output:<br/>
+<blockquote>
+<header class="header2">
+<nav class="navleft2">
+My Blog
+</nav>
+<nav class="navright2">
+<li>Home</li>
+<li>About</li>
+<li>Contact</li>
+<li>Write for us</li>
+</nav>
+</header>
+</blockquote>
+<br>
+<style>
+.hearder2{
+margin:20px;  
+}
+.header2 nav{
+  float:left;
+}
+.navleft2{
+  width:30%;  
+}
+.navright2{
+width: 70%;
+}
+.navright2 li{
+  display:inline-block;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align:right;
+}
+</style>
+<br>
+
+If you like you can also add fancy things like fa fa-icons, or change the font
